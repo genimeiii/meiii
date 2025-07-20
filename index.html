@@ -2,17 +2,156 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jenna Hiponia – Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Jenna May's Portfolio</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-        <h1>Hello, I'm <span>Jenna Hiponia</span></h1>
-        <p>IT Student | Web Enthusiast | Creative Thinker</p>
-        <nav>
-            <a href="aboutme.html">About Me</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+    <nav class="navbar">
+        <a href="#home" class="logo">Meiii</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <section class="home" id="home">
+        <img src="bg.png" alt="Background" class="background-img">
+        <header>
+            <div class="text">
+                <p><strong>Hi, My Name Is</strong></p>
+                <h1 class="outline-text">Jenna May</h1>
+                <p>A passionate IT student eager to gain more experience and <br>
+                    showcase my skills, even though I’m still a student.</p>
+            </div>
+            <a href="resume.pdf" download>Download CV</a>
+        </header>
+    </section>
+
+    <section id="aboutme" class="about">
+        <div class="about-container">
+            <div class="about-image">
+            <img src="photo.png" alt="Jenna May Hiponia">
+            </div>
+            <div class="about-text">
+                <h2>Hi There! I’m <span class="highlight">Jenna May Hiponia</span></h2>
+                <h3><span class="job-title">BSIT Student</span></h3>
+                <p class="description">
+                    I am an IT student who wants to pursue my passion for design—not just in editing, but also in front-end and UI design.
+                    I have the courage and drive to expand my knowledge in design and apply it to my future career.
+                </p>
+                <div class="details">
+                    <div><strong>Age</strong> | 19 yrs. old</div>
+                    <div><strong>Birthday</strong> | October 31, 2005</div>
+                    <div><strong>Civil Status</strong> | Single</div>
+                    <div><strong>Citizenship</strong> | Filipino</div>
+                    <div><strong>Address</strong> | Trece Martires City, Cavite</div>
+                    <div><strong>Educational Level</strong> | BSIT (CvSU - Main, Indang, Cavite)</div>
+                    <div class="sk"><strong>Skills</strong></div>
+                    <div class="skills">
+                        <img src="p1.png">
+                        <img src="p2.png">
+                        <img src="p3.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <h2 class="portfolio-title"><strong>THINGS I’VE WORKED ON</strong></h2>
+        <div class="header2"><strong>PUBLICATION MATERIALS</strong></div>
+        <div class="card">
+            <img src="img1.jpg">
+            <img src="img2.jpg">
+            <img src="img3.jpg">
+            <img src="img4.png">
+            <img src="img5.png">
+        </div>
+        <div class="header2"><strong>WEBSITE</strong>
+            <div class="card">
+                <img src="img6.png" class="img6">
+            </div>
+        </div>   
+    </section>
+
+    <section class="blog" id="blog">
+        <div class="blog-header">
+            <h2>Welcome to My <span>Blog</span></h2>
+            <p class="blog-intro">
+            As an IT student, this blog is where I share what I’m learning and building — 
+            from design to code and everything in between. I'm here to prove that passion 
+            and persistence matter.
+            </p>
+        </div>
+
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="b1.jpg" alt="Blog Image">
+                <h3>How I Stay Productive as an IT Student?</h3>
+                <p class="date">🕒 April 17, 2023</p>
+                <a href="extra.html">Read More →</a>
+            </div>
+
+            <div class="blog-card">
+                <img src="b2.jpg" alt="Blog Image">
+                <h3>Why I Chose IT as My Course?</h3>
+                <p class="date">🕒 October 9, 2024</p>
+                <a href="extra.html">Read More →</a>
+            </div>
+
+            <div class="blog-card">
+                <img src="b3.jpg" alt="Blog Image">
+                <h3>Mistakes I Made in Web Development</h3>
+                <p class="date">🕒 February 26, 2025</p>
+                <a href="extra.html">Read More →</a>
+            </div>
+
+            <div class="blog-card">
+                <img src="b4.jpg" alt="Blog Image">
+                <h3>Balancing Creativity and Logic in IT</h3>
+                <p class="date">🕒 July 3, 2023</p>
+                <a href="extra.html">Read More →</a>
+            </div>
+        </div>
+
+        <div class="blog-footer">
+            <a href="extra.html" class="view-all-btn">View All Articles</a>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="contact-left">
+            <h1>Get In<br><strong>Touch</strong></h1>
+            <p>jennamay.hiponia@cvsu.edu.ph</p>
+            <p>0977-128-3912</p>
+            <p>Brgy. Aguado, Trece Martires City, Cavite</p>
+        </div>
+
+        <div class="contact-right">
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required />
+                <input type="text" placeholder="Email Address (optional)" />
+                <textarea placeholder="Message"></textarea>
+                <button type="submit">SEND</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <ul class="footer-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            </ul>
+            <p class="footer-last">© 2025 Meiii Inc. All rights reserved</p>
+        </div>
+    </footer>
 </body>
 </html>
